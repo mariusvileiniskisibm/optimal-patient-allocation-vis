@@ -1,5 +1,5 @@
 ---
 applications:
- - name: DO_Viz_app
+ - name: DOVizApp
    random-route: true
    memory: 512M

@@ -20,14 +20,14 @@ cd get-started-python
   ```
 This specific application is hosted on the following repository:
   ```
-git clone https://github.com/IBM-Cloud/get-started-python
+git clone https://github.com/mariusvileiniskisibm/optimal-patient-allocation-vis
 
   ```
 Clone it and cd into the directory
   ```
-cd get-started-python
+cd optimal-patient-allocation-vis
   ```
-  Peruse the files in the *get-started-python* directory to familiarize yourself with the contents.
+  Peruse the files in the *goptimal-patient-allocation-vis* directory to familiarize yourself with the contents.
 
 ## 2. Run the app locally
 
@@ -52,7 +52,7 @@ To deploy to IBM Cloud, one can use a manifest.yml file. One is provided for you
 The manifest.yml includes basic information about your app, such as the name, how much memory to allocate for each instance and the route. In this manifest.yml **random-route: true** generates a random route for your app to prevent your route from colliding with others.  You can replace **random-route: true** with **host: myChosenHostName**, supplying a host name of your choice. [Learn more...](https://console.bluemix.net/docs/manageapps/depapps.html#appmanifest)
  ```
  applications:
- - name: GetStartedPython
+ - name: DOVizApp
    random-route: true
    memory: 512M
  ```
